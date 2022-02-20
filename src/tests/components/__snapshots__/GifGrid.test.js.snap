@@ -19,31 +19,3 @@ exports[`Pruebas en el <GifGrid /> Debe de mostrar el componente correctamente 1
   />
 </Fragment>
 `;
-
-exports[`Pruebas en el <GifGrid /> Debe de mostrar items cuando se cargan imagenes useFetchGifs 1`] = `
-<Fragment>
-  <h3
-    className="animate__animated animate__fadeIn"
-  >
-     
-    One Punch
-     
-  </h3>
-  <div
-    className="card-grid"
-  >
-    <GifGridItem
-      id="ABC"
-      key="ABC"
-      title="Cualquier cosa"
-      url="http://localhost/asdasdsad.jpg"
-    />
-    <GifGridItem
-      id="A123"
-      key="A123"
-      title="Cualquier cosa"
-      url="http://localhost/asdasdsad.jpg"
-    />
-  </div>
-</Fragment>
-`;
